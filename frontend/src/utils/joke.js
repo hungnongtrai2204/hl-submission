@@ -39,7 +39,7 @@ export const createJokeList = numStories => {
     }
   }
 
-  // Create story list
+  // Create jokes list
   for (let i = 0; i < ids.length; i++) {
     jokes.push(`joke${ids[i]}`)
   }
